@@ -5,10 +5,20 @@
 body {
   font-family: Urbanist, sans-serif;
 
-  background: $neu-900;
-  color: $neu-100;
+  background: $co-neu-900;
+  color: $co-neu-100;
 }
 
 h1 {
+  font-weight: $wt-xbold;
+  font-size: $sz-xl3;
+}
+h2 {
+  font-weight: $wt-bold;
+  font-size: $sz-xl2;
+}
 
+h3 {
+  font-weight: $wt-normal;
+  font-size: $sz-xl;
 }

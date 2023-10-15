@@ -1,4 +1,33 @@
 /* Variables and mixins declared here will be available in all other SCSS files */
 
-$neu-900: #11111a;
-$neu-100: #f8f8ff;
+$co-neu-900: #11111a;
+$co-neu-100: #f8f8ff;
+
+$sz-xs: 0.500rem;
+$sz-sm: 0.707rem;
+$sz-md: 1rem;
+$sz-lg: 1.414rem;
+$sz-xl: 1.999rem;
+$sz-xl2: 2.827rem;
+$sz-xl3: 3.998rem;
+$sz-xl4: 5.653rem;
+$sz-xl5: 7.993rem;
+$sz-xl6: 11.302rem;
+$sz-xl7: 15.981rem;
+$sz-xl8: 22.597rem;
+$sz-xl9: 31.952rem;
+$sz-xl10: 45.180rem;
+$sz-xl11: 63.884rem;
+$sz-xl12: 90.332rem;
+$sz-xl13: 127.729rem;
+$sz-xl14: 180.610rem;
+$sz-xl15: 255.382rem;
+$sz-xl16: 361.110rem;
+
+$wt-xxlight: calc(300 * 0.354);
+$wt-xlight: calc(300 * 0.5);
+$wt-light: calc(300 * 0.707);
+$wt-normal: calc(300 * 1);
+$wt-bold: calc(300 * 1.414);
+$wt-xbold: calc(300 * 1.999);
+$wt-xxbold: calc(300 * 2.827);

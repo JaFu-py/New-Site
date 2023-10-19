@@ -3,11 +3,14 @@
 
 	export let data
 
-    const {title, description, imageUrl, pageUrl, color} = data;
+    const {title, description, imageUrl, PageUrl, color} = data;
 </script>
 
 <svelte:head>
-	    <meta http-equiv="refresh" content="1;url={pageUrl}">
+{#if data !== "404"}
+
+	    <meta http-equiv="refresh" content="1;url={PageUrl}">
+
 	<!-- General Meta Tags -->
 	<meta name="title" content={title} />
 	<meta name="description" content={description} />
@@ -20,7 +23,7 @@
 
 		{/if}
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content={pageUrl} />
+	<meta property="og:url" content={PageUrl} />
 
 	<!-- Twitter Cards -->
 
@@ -36,4 +39,11 @@
 		{/if}
 	<!-- Theme Color -->
 	<meta name="theme-color" content={color} />
+
+{/if }
 </svelte:head>
+{#if data === "404"}
+	<h1>404</h1>
+	<p>This isn't a valid link, silly!</p>
+	{/if}
+

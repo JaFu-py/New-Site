@@ -10,7 +10,7 @@
 
 {#if $page.route.id !== "/r/[slug]"}
 <nav>
-    <a href="#"><Home/></a>
+    <a href="/#"><Home/></a>
 </nav>
     <slot />
 <footer>&copy 2023 JaFu.py All rights reserved.</footer>

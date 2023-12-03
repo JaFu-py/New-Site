@@ -1,9 +1,15 @@
+<script>
+	import { onMount } from 'svelte';
+	import Typewriter from '$lib/components/type.svelte';
+	const texts = ['A random guy from the interwebs', 'Binary Alchemist'];
+</script>
+
 <main>
 	<section class="hero">
 		<div class="items">
 			<p>Hi, I'm</p>
 			<h1>Jacob</h1>
-			<p>A random guy on the interwebs</p>
+			<p><Typewriter {texts} /></p>
 		</div>
 	</section>
 </main>
@@ -20,11 +26,11 @@
 		.items {
 			h1 {
 				margin: 0;
-				font-size: $sz-xl6;
-				font-weight: $wt-bold;
+				font-size: $xl6;
+				font-weight: $bold;
 			}
 			p {
-				font-size: $sz-lg;
+				font-size: $lg;
 			}
 		}
 	}

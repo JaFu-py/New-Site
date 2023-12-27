@@ -1,12 +1,12 @@
 <script>
 	export let data;
-
-    const {title, description, imageUrl, pageUrl, color} = data;
+	console.clear()
+    const {title, description, imageUrl, PageUrl, color} = data;
 
 </script>
 
 <svelte:head>
-	<meta http-equiv="refresh" content="1;url={pageUrl}" />
+	<meta http-equiv="refresh" content="1;url={PageUrl}" />
 	<!-- General Meta Tags -->
 	<meta name="title" content={title} />
 	<meta name="description" content={description} />
@@ -18,7 +18,7 @@
 		<meta property="og:image" content={imageUrl} />
 	{/if}
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content={pageUrl} />
+	<meta property="og:url" content={PageUrl} />
 
 	<!-- Twitter Cards -->
 

@@ -1,20 +1,22 @@
 <script>
 	import '../app.scss';
-	import { IconHome as Home } from '@tabler/icons-svelte';
+    import { IconHome as Home,  } from "@tabler/icons-svelte"
 
-	import { page } from '$app/stores';
+    import { page } from "$app/stores";
+
 </script>
 
-{#if $page.route.id !== '/r/[slug]'}
-	<nav>
-		<a href="https://jafu.dev/#"><Home /></a>
-	</nav>
-	<slot />
-	<footer>&copy 2023 JaFu.py All rights reserved.</footer>
-{:else}
-	<slot />
-{/if}
 
+
+{#if $page.route.id !== "/r/[slug]"}
+<nav>
+    <a href="#"><Home/></a>
+</nav>
+    <slot />
+<footer>&copy 2023 JaFu.py All rights reserved.</footer>
+    {:else}
+    <slot />
+    {/if}
 <style lang="scss">
 	// ----- Nav -----
 
@@ -41,18 +43,18 @@
 			border-radius: 1rem;
 			margin: $sz-xs2;
 
-			&:hover {
-				color: #45adda;
-			}
-		}
-	}
+      &:hover {
+        color: #45adda;
+      }
+    }
+  }
 	footer {
 		height: 10vh;
 		background: #00000080;
 
-		border-top-left-radius: $sz-md;
-		border-top-right-radius: $sz-md;
+		border-top-left-radius: $md;
+		border-top-right-radius: $md;
 
-		padding: $sz-md;
+		padding: $md;
 	}
 </style>

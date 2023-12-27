@@ -1,7 +1,11 @@
 <script>
 	import { onMount } from 'svelte';
 	import Typewriter from '$lib/components/type.svelte';
-	const texts = ['A random guy from the interwebs', 'Binary Alchemist'];
+	const texts = [
+		'A random guy from the interwebs', 
+		'Binary Alchemist',
+		'@JaFu.py || @JaFupy on social'
+		];
 </script>
 
 <main>
@@ -10,6 +14,11 @@
 			<p>Hi, I'm</p>
 			<h1>Jacob</h1>
 			<p><Typewriter {texts} /></p>
+		</div>
+	</section>
+	<section>
+		<div class="items">
+			<h2>Who am I?</h2>
 		</div>
 	</section>
 </main>

@@ -2,9 +2,9 @@
   "name": "sveltekit-2",
   "version": "0.0.1",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "bunx vite dev",
+    "build": "bunx vite build",
+    "preview": "bunx vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
     "test": "playwright test",

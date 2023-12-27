@@ -39,9 +39,9 @@
 		a {
 			text-decoration: none;
 			padding: 10px;
-			color: $co-neu-100;
+			color: $neu-100;
 			border-radius: 1rem;
-			margin: $sz-xs2;
+			margin: $xs2;
 
       &:hover {
         color: #45adda;

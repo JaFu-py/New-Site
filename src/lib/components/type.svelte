@@ -8,8 +8,8 @@
 	let charIndex = 0;
 	let isDeleting = false;
 
-	const typingSpeed = 175; // Speed for typing
-	const deletingSpeed = 30; // Speed for deleting (faster)
+	export let typingSpeed = 175; // Speed for typing
+	export let deletingSpeed = 30; // Speed for deleting (faster)
 
 	function processTypewriter() {
 		if (!isDeleting) {

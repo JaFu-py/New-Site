@@ -48,7 +48,7 @@
 	<div id="foot-block">
 <footer>
 	<img src="https://avatars.githubusercontent.com/u/104758482?v=4" alt="JaFu Logo J">
-	<p id="version">v1.2.0</p>
+	<p id="version">v1.3.0</p>
 	<p>My local time: {JaFuTime}</p>
 	 <p>By the way, your IP Address is {data.ipAddress?.replaceAll("\"", "")}</p>
 	 <p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p>

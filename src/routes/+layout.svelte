@@ -42,20 +42,18 @@
 
 
 <nav>
-    <a href="#"><Home/></a>
+    <a href="https://www.jafu.dev/"><Home/></a>
 </nav>
     <slot />
-	<div id="foot-block">
 <footer>
 	<img src="https://avatars.githubusercontent.com/u/104758482?v=4" alt="JaFu Logo J">
-	<p id="version">v1.3.0</p>
+	<p id="version">v1.3.1</p>
 	<p>My local time: {JaFuTime}</p>
 	 <p>By the way, your IP Address is {data.ipAddress?.replaceAll("\"", "")}</p>
 	 <p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p>
 	<p id="copyright">&copy 2023 JaFu.py All rights reserved.</p>
 </footer>
-    </div>
-
+<div class="s"></div>
 
 
 
@@ -103,13 +101,11 @@
 
 		border: 2px solid rgba(255, 255, 255, 0.3);
 		border-radius: 10px;
-		position: absolute;
-		left: 2rem;
-		bottom: 2rem;
-		right: 2rem;
+		margin:2rem;
+		margin-bottom: 0;
 
 		
-
+		
 		border-top-left-radius: $md;
 		border-top-right-radius: $md;
 
@@ -136,7 +132,8 @@
 		border-radius: 10px;
 		width: fit-content;
 	}
-	#foot-block {
-		position: relative;
+	.s {
+		height:2rem;
+		margin-top: 0;
 	}
 </style>

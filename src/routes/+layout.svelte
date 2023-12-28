@@ -51,6 +51,7 @@
 	<p id="version">v1.2.0</p>
 	<p>My local time: {JaFuTime}</p>
 	 <p>By the way, your IP Address is {data.ipAddress?.replaceAll("\"", "")}</p>
+	 <p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p><p>PLACEHOLDER</p>
 	<p id="copyright">&copy 2023 JaFu.py All rights reserved.</p>
 </footer>
     </div>
